@@ -1,0 +1,66 @@
+/* Navigation bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+/* Home section */
+#home{
+    padding: 3px 34px;
+    height: 369px;
+}
+#home::before{
+    height: 475px;
+}
+#home p {
+    font-size: 0.9rem;
+}
+/* Services Section */
+#services .box img {
+    height: 73px;
+}
+.box p{
+    font-size: 0.7rem;
+}
+/* Clint Section */
+#clints{
+    margin: 15px;
+}
+#clints img {
+    margin: 4px;
+    height: 28px;
+    width: 50px;
+}
+
+/* Contact section */
+#contact label{
+    font-size: 0.8rem;
+}
+
+/* Footer */
+footer{
+    font-size: 0.8;
+    text-align: center;
+}
+
+/* Utility class */
+.h-primary {
+    font-size: 1.1rem;
+    padding: 5px;
+}
+.h-secondary {
+    font-size: 0.8rem;
+    padding: 11px;
+}
+.btn{
+    padding: 3px 4px;
+    font-size: 0.9rem;
+}
